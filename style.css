@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.header h1 {
+    color: #28a745;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+.form-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-size: 1.1rem;
+}
+
+#plantsDropdown {
+    font-size: 1.1rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    /* Yeşil buton */
+    color: white;
+    /* Beyaz yazı */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.sensor-info {
+    margin-top: 20px;
+}
+
+.sensor-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.sensor-item.light {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.sensor-item.temp {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.sensor-item.moisture {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.sensor-item.ph {
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+
+.sensor-item.error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.sensor-item i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+}
+
+.sensor-item p {
+    display: inline-block;
+    margin: 0;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.alert.alert-danger {
+    margin-top: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Renkli ikonlar */
+.sun-icon {
+    color: #f39c12;
+    /* Güneş için sarı renk */
+}
+
+.leaf-icon {
+    color: #008000;
+    /* Koyu yeşil */
+}
+
+.thermometer-icon {
+    color: #e74c3c;
+    /* Termometre için kırmızı renk */
+}
+
+.moisture-icon {
+    color: #3498db;
+    /* Su damlası için mavi renk */
+}
+
+.ph-icon {
+    color: #9b59b6;
+    /* pH için mor renk */
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+    /* Boşluğu artırarak daha geniş bir alan ekler */
+}
+
+.mb-4 label {
+    display: inline;
+    /* Radyo butonlarını yatayda gösterir */
+    margin-right: 20px;
+    /* Radyo butonları arasındaki mesafeyi artırır */
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 20px;
+}
