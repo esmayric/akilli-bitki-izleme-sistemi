@@ -1,2 +1,7 @@
-# akilli-bitki-izleme-sistemi
-Akıllı Bitki İzleme Sistemi, sensörler aracılığıyla çevresel verileri (sıcaklık, nem, ışık şiddeti, pH vb.) toplayarak bitki bakımını optimize eden bir IoT projesidir. Isolation Forest algoritması kullanılarak anomali tespiti yapılır ve ideal koşullardan sapma durumunda uyarılar verilir.
+# Akıllı Bitki İzleme Sistemi
+
+Bu proje, Python ile geliştirilmiş bir **IoT tabanlı bitki izleme sistemi**dir. Çevresel verileri toplamak için sensörler kullanılır ve Isolation Forest algoritması ile anomali tespiti yapılır.
+## Teknolojiler:
+- Python
+- Flask
+- Machine Learning (Isolation Forest)
